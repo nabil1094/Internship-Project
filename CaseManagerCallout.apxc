@@ -7,7 +7,7 @@ public class CaseManagerCallout{
         HttpResponse response = http.send(request);
         // If the request is successful
         if(response.getStatusCode() == 200){
-            System.debug('Response received);
+            System.debug('Response received');
         }
         else{
             System.debug('Failed');
